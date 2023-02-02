@@ -28,6 +28,7 @@
     font-weight: lighter;
     color: #ebebeb;
     margin-top: 20px;
+    margin-left: 20px;
   }
 
   .m-text {
@@ -36,6 +37,11 @@
     font-weight: lighter;
     color: #ebebeb;
     margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .nav-2 {
+    
   }
 
   .nav-logo {
@@ -46,6 +52,7 @@
   .nav-link {
     display: flex;
     margin-left: 27px;
+
   }
 
   .btn {
@@ -596,10 +603,14 @@
     background-color: #434343;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .cen {
-    
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .footer-text {
@@ -608,4 +619,20 @@
     color: #9d9d9f;
     font-weight: light;
     font-size: medium;
+}
+
+.foot-img {
+  margin-left: 100px;
+}
+
+.facebook {
+  margin-left: 100px;
+  width: 50px;
+  height: 50px;
+}
+
+.twitter {
+  margin-left: 50px;
+  width: 50px;
+  height: 50px;
 }
