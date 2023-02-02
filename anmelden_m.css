@@ -1,0 +1,608 @@
+/* font-family: 'Fira Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+/* font-family: 'Fira Sans', sans-serif; */
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+  .nav-1 {
+    width: 100%;
+    height: 70px;
+    background-color: #434343;
+    display: flex;
+    
+  }
+  
+  .location {
+    width: 50px;
+    height: 50px;
+  }
+
+  .mail {
+    width: 50px;
+    height: 50px;
+  }
+
+  .l-text {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #ebebeb;
+  }
+
+  .m-text {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #ebebeb;
+  }
+
+  .nav-logo {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .nav-link {
+    display: flex;
+    margin-left: 27px;
+  }
+
+  .btn {
+    display: flex;
+    margin-left: 30px;
+
+  }
+
+  a {
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+  }
+
+  
+
+  .home {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .homeh {
+    color: black;
+  }
+
+  .homeh:hover {
+    color: #c60000;
+  }
+
+  .mission {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .missionm {
+    color: black;
+  }
+
+  .missionm:hover {
+    color: #c60000;
+  }
+
+  .board {
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .boardb {
+    color: black;
+  }
+
+  .boardb:hover {
+    color: #c60000;
+  }
+
+  .events {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .eventse {
+    color: black;
+  }
+
+  .eventse:hover {
+    color: #c60000;
+  }
+
+  .useful {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .usefulu {
+    color: black;
+  }
+
+  .usefulu:hover {
+    color: #c60000;
+  }
+
+  .contact {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .contactc {
+    color: black;
+    
+  }
+
+  .contactc:hover {
+    color: #c60000;
+  }
+
+  .fa-search {
+    margin-top: 20px;
+    margin-left: 30px;
+    
+  }
+
+  .sign {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #c60000;
+    border-color: #c60000; 
+  }
+
+  h1 {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    margin-left: 50px;
+  }
+
+  .line {
+    width: 150px;
+    height: 3px;
+    margin-left: 50px;
+    background-color: rgb(208, 6, 6);
+    border-color: rgb(208, 6, 6);
+  }
+
+  .intro {
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 50px;
+  }
+
+  .form {
+       
+  }
+
+  .first {
+    display: flex;
+  }
+
+  .second {
+    display: flex;
+  }
+
+  .third {
+    display: flex;
+  }
+
+  .fourth {
+    display: flex;
+  }
+
+  .fifth {
+    display: flex;
+  }
+
+  .sixth {
+    display: flex;
+  }
+
+  .seventh {
+    display: flex;
+  }
+
+  .eighth {
+    display: flex;
+  }
+
+  .ninth {
+    display: flex;
+  }
+
+  .tenth {
+    display: flex;
+  }
+
+  .eleventh {
+    display: flex;
+  }
+
+  .one {
+    margin-left: 50px;
+  }
+
+  .two {
+    margin-left: 100px;
+  }
+
+  .three {
+    margin-left: 50px;
+  }
+
+  .four {
+    margin-left: 100px;
+  }
+
+  .five {
+    margin-left: 50px;
+  }
+
+  .six {
+    margin-left: 100px;
+  }
+
+  .seven {
+    margin-left: 50px;
+  }
+
+  .eight {
+    margin-left: 100px;
+  }
+
+  .nine {
+    margin-left: 50px;
+  }
+
+  .ten {
+    margin-left: 100px;
+  }
+
+  .eleven {
+    margin-left: 50px;
+  }
+
+  .twelve {
+    margin-left: 100px;
+  }
+
+  .thirteen {
+    margin-left: 50px;
+  }
+
+  .fourteen {
+    margin-left: 100px;
+  }
+
+  .fifteen {
+    margin-left: 50px;
+  }
+
+  .sixteen {
+    margin-left: 100px;
+  }
+
+  .seventeen {
+    margin-left: 50px;
+  }
+
+  .eighteen {
+    margin-left: 100px;
+  }
+
+  .nineteen {
+    margin-left: 50px;
+  }
+
+  .twenty {
+    margin-left: 100px;
+  }
+
+  .twenty-one {
+    margin-left: 50px;
+  }
+
+  .twenty-two {
+    margin-left: 100px;
+  }
+
+  #salutation {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #employment {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #title {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #practice {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #education {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #street {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #profession {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #postcode {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #first-name {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #location {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #surname {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #phone {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #dob {
+    width: 250px;
+    height: 60px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #email {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #diploma-country {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #private {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #diploma-year {
+    width: 250px;
+    height: 60px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #private-zip {
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #gln {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #private-location {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #uid {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #cell-phone {
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f3f9;
+    border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  #check {
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+  }
+
+  .check {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    
+  }
+
+  .box {
+    display: inline-flex;
+  }
+
+  .saav {
+    text-decoration: none;
+  }
+
+  .submit {   
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #c60000;
+    border-color: #c60000;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase; 
+    font-weight: 1000;  
+    font-size: 25px;
+    margin-left: 50px;
+    box-shadow: inset 0 0 0 0 red;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+
+.submit:hover {
+    box-shadow: inset 300px 0 0 0 red;
+    cursor: pointer;
+    color: black;
+} 
+
+.footer {
+    width: 100%;
+    height: 350px;
+    background-color: #434343;
+    display: flex;
+    justify-content: center;
+}
+
+.cen {
+    
+}
+
+.footer-text {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: capitalize; 
+    color: #9d9d9f;
+    font-weight: light;
+    font-size: medium;
+}

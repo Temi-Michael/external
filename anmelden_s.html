@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION SYMPOSIUM</title>
+    <link rel="stylesheet" href="/anmelden_s.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"> -->
+</head>
+<body>
+    <h1>
+        registration symposium
+    </h1>
+    <p class="intro">
+        Fields marked with a * are mandatory.<br>
+        All information is transmitted in encrypted form and not passed on to third parties.
+    </p>
+    <form action="/anmelden_s.php" method="post" class="form">
+        <div class="first">
+            <div class="one">
+                <label for="first-name" class="first-name">
+                    first name *
+                </label><br>
+                <input type="text" name="first-name" id="first-name" required>
+            </div>
+            <div class="two">
+                <label for="name" class="name">
+                    name *
+                </label><br>
+                <input type="text" name="name" id="name" required>
+            </div>
+        </div><br>
+        <div class="second">
+            <div class="three">
+                <label for="email" class="email">
+                    e-mail *
+                </label><br>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="four">
+                <label for="phone" class="phone">
+                    phone number *
+                </label><br>
+                <input type="tel" name="phone" id="phone" required>
+            </div>
+        </div><br>
+        <div class="third">
+            <div class="five">
+                <label for="profession" class="profession">
+                    profession *
+                </label><br>
+                <input type="text" name="profession" id="profession" required>
+            </div>
+        </div><br><br>
+        <button type="submit" class="submit" id="submit">
+            submit
+        </button>
+    </form>
+</body>
+</html>

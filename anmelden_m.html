@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENTRY FORM</title>
+    <link rel="stylesheet" href="/anmelden_m.css">
+    <script src="https://use.fontawesome.com/0fa85c1f97.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <nav class="nav-1">
+        <img src="/img/Location-marker.png" alt="Location" class="location">
+        <span class="l-text">Alleestrasse 2a, 9030 Abtwil</span> 
+        <img src="/img/mail-2569.png" alt="Mail" class="mail">
+        <span class="m-text">sekretariat@swissalbmed.ch</span>
+    </nav>
+    <nav class="nav-2">
+        <div class="nav-logo">
+            <a href="#">
+                <img src="/img/logo-default-147x46 color.png" alt="" class="logo-color">
+            </a>
+        </div>
+        <div class="nav-link">
+            <button class="home">
+                <a href="#" class="homeh">home</a>
+            </button>
+            <button class="mission">
+                <a href="#" class="missionm">mission</a>
+            </button>
+            <button class="board">
+                <a href="#" class="boardb">board of directors</a>
+            </button>
+            <button class="events">
+                <a href="#" class="eventse">events</a>
+            </button>
+            <button class="useful">
+                <a href="#" class="usefulu">useful links</a>
+            </button>
+            <button class="contact">
+                <a href="#" class="contactc">contact</a>
+            </button>
+                <i class="fa fa-search fa2x1" aria-hidden="true"></i>
+            <div class="btn">
+                <button class="sign">
+                    <a href="#">sign up</a>
+                </button>
+            </div>
+        </div>
+        
+    </nav>
+    <h1>
+        entry form
+    </h1>
+    <div class="line"></div>
+    <p class="intro">
+        Fields marked with a * are mandatory.<br>
+        All information is transmitted in encrypted form and not passed on to third parties.
+    </p>
+    <form action="/anmelden_m.php" method="post" class="form">
+        <div class="first">
+            <div class="one">
+                <!-- <label for="first-name" class="first-name">
+                    first name *
+                </label><br> -->
+                <input type="text" name="salutation" id="salutation" placeholder="Salutation *" required>
+            </div>
+            <div class="two">
+                <!-- <label for="name" class="name">
+                    name *
+                </label><br> -->
+                <input type="text" name="employment" id="employment" placeholder="Employment *" required>
+            </div>
+        </div><br>
+        <div class="second">
+            <div class="three">
+                <!-- <label for="first-name" class="first-name">
+                    first name *
+                </label><br> -->
+                <input type="text" name="title" id="title" placeholder="Title *" required>
+            </div>
+            <div class="four">
+                <!-- <label for="name" class="name">
+                    name *
+                </label><br> -->
+                <input type="text" name="practice" id="practice" placeholder="Practice/Hospital" required>
+            </div>
+        </div><br>
+        <div class="third">
+            <div class="five">
+                <!-- <label for="first-name" class="first-name">
+                    first name *
+                </label><br> -->
+                <input type="text" name="education" id="education" placeholder="Continuing Education Title" required>
+            </div>
+            <div class="six">
+                <!-- <label for="name" class="name">
+                    name *
+                </label><br> -->
+                <input type="text" name="street" id="street" placeholder="Street" required>
+            </div>
+        </div><br>
+        <div class="fourth">
+            <div class="seven">
+                <!-- <label for="first-name" class="first-name">
+                    first name *
+                </label><br> -->
+                <input type="text" name="profession" id="profession" placeholder="Profession *" required>
+            </div>
+            <div class="eight">
+                <!-- <label for="name" class="name">
+                    name *
+                </label><br> -->
+                <input type="text" name="postcode" id="postcode" placeholder="Postcode" required>
+            </div>
+        </div><br>
+        <div class="fifth">
+            <div class="nine">
+                <!-- <label for="first-name" class="first-name">
+                    first name *
+                </label><br> -->
+                <input type="text" name="first-name" id="first-name" placeholder="First Name *" required>
+            </div>
+            <div class="ten">
+                <!-- <label for="name" class="name">
+                    name *
+                </label><br> -->
+                <input type="text" name="name" id="location" placeholder="Location *" required>
+            </div>
+        </div><br>
+        <div class="sixth">
+            <div class="eleven">
+                <!-- <label for="first-name" class="first-name">
+                    first name *
+                </label><br> -->
+                <input type="text" name="surname" id="surname" placeholder="Surname *" required>
+            </div>
+            <div class="twelve">
+                <label for="name" class="name">
+                    <!-- name *
+                </label><br> -->
+                <input type="tel" name="phone" id="phone" placeholder="Phone" required>
+            </div>
+        </div><br>
+        <div class="seventh">
+            <div class="thirteen">
+                <!-- <label for="first-name" class="first-name">
+                    first name *
+                </label><br> -->
+                <input type="date" name="dob" id="dob" placeholder="Date Of Birth *" required>
+            </div>
+            <div class="fourteen">
+                <!-- <label for="name" class="name">
+                    name *
+                </label><br> -->
+                <input type="email" name="email" id="email" placeholder="Email *" required>
+            </div>
+        </div><br>
+        <div class="eighth">
+            <div class="fifteen">
+                <!-- <label for="first-name" class="first-name">
+                    first name *
+                </label><br> -->
+                <input type="text" name="diploma-country" id="diploma-country" placeholder="Diploma Issuing Country *" required>
+            </div>
+            <div class="sixteen">
+                <!-- <label for="name" class="name">
+                    name *
+                </label><br> -->
+                <input type="text" name="private" id="private" placeholder="Private Address" required>
+            </div>
+        </div><br>
+        <div class="ninth">
+            <div class="seventeen">
+                <!-- <label for="first-name" class="first-name">
+                    first name *
+                </label><br> -->
+                <input type="date" name="diploma-year" id="diploma-year" placeholder="Diploma Year *" required>
+            </div>
+            <div class="eighteen">
+                <!-- <label for="name" class="name">
+                    name *
+                </label><br> -->
+                <input type="text" name="private-zip" id="private-zip" placeholder="Private ZIP *" required>
+            </div>
+        </div><br>
+        <div class="tenth">
+            <div class="nineteen">
+                <!-- <label for="first-name" class="first-name">
+                    first name *
+                </label><br> -->
+                <input type="text" name="gln" id="gln" placeholder="GLN" required>
+            </div>
+            <div class="twenty">
+                <!-- <label for="name" class="name">
+                    name *
+                </label><br> -->
+                <input type="text" name="private-location" id="private-location" placeholder="Private Location *" required>
+            </div>
+        </div><br>
+        <div class="eleventh">
+            <div class="twenty-one">
+                <!-- <label for="first-name" class="first-name">
+                    first name *
+                </label><br> -->
+                <input type="text" name="uid" id="uid" placeholder="UID" required>
+            </div>
+            <div class="twenty-two">
+                <!-- <label for="name" class="name">
+                    name *
+                </label><br> -->
+                <input type="tel" name="cell-phone" id="cell-phone" placeholder="Private Cell Phone" required>
+            </div>
+        </div><br><br>
+        <div class="box">
+            <input type="checkbox" id="check" name="check" value="check">
+            <label for="check" class="check"> I accept the <span class="saav"><a href="#">statues of SAAV</a></span></label>
+        </div><br>
+        <button type="submit" class="submit" id="submit">
+            sign up now
+        </button><br><br>
+        <footer class="footer">
+            <div class="cen">
+                <a href="#"><img src="/img/logo-inverse-147x46 black.png" alt=""></a>
+                <p class="footer-text">
+                <i class="fa fa-copyright" aria-hidden="true"></i></i>2023 All Rights Reserved.
+                Designed By Lazy_Codes
+                <div class="social">
+                </p>
+                <img src="/img/facebook-logo-2163.png" alt="Facebook" class="facebook">
+                <img src="/img/twitter-2170.png" alt="Twitter" class="twitter">
+                </div>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>
