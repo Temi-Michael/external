@@ -3,8 +3,175 @@
 /* font-family: 'Fira Sans', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
 
+.nav-1 {
+    width: 100%;
+    height: 70px;
+    background-color: #434343;
+    display: flex;
+    
+  }
+  
+  .location {
+    width: 50px;
+    height: 50px;
+  }
 
-  .first {
+  .mail {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+  }
+
+  .l-text {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #ebebeb;
+    margin-top: 20px;
+  }
+
+  .m-text {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #ebebeb;
+    margin-top: 20px;
+  }
+
+  .nav-logo {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .nav-link {
+    display: flex;
+    margin-left: 27px;
+  }
+
+  .btn {
+    display: flex;
+    margin-left: 30px;
+
+  }
+
+  a {
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+  }
+
+  
+
+  .home {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .homeh {
+    color: black;
+  }
+
+  .homeh:hover {
+    color: #c60000;
+  }
+
+  .mission {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .missionm {
+    color: black;
+  }
+
+  .missionm:hover {
+    color: #c60000;
+  }
+
+  .board {
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .boardb {
+    color: black;
+  }
+
+  .boardb:hover {
+    color: #c60000;
+  }
+
+  .events {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .eventse {
+    color: black;
+  }
+
+  .eventse:hover {
+    color: #c60000;
+  }
+
+  .useful {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .usefulu {
+    color: black;
+  }
+
+  .usefulu:hover {
+    color: #c60000;
+  }
+
+  .contact {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .contactc {
+    color: black;
+    
+  }
+
+  .contactc:hover {
+    color: #c60000;
+  }
+
+  .fa-search {
+    margin-top: 20px;
+    margin-left: 30px;
+    
+  }
+
+  .sign {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #c60000;
+    border-color: #c60000; 
+  }
+
+
+.first {
     display: flex;
 }
 
@@ -119,20 +286,41 @@ h1 {
     width: 250px;
     height: 60px;
     border-radius: 30px;
-    background-color: red;
+    background-color: #c60000;
+    border-color: #c60000;
     color: white;
     font-family: 'Fira Sans', sans-serif;
     text-transform: uppercase; 
     font-weight: 1000;  
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 50px;
-    box-shadow: inset 0 0 0 0 rgb(162, 3, 3);
+    box-shadow: inset 0 0 0 0 red;
     transition: ease-out 0.3s;
     outline: none;
 }
 
 .submit:hover {
-    box-shadow: inset 300px 0 0 0 rgb(162, 3, 3);
+    box-shadow: inset 300px 0 0 0 red;
     cursor: pointer;
     color: black;
 } 
+
+.footer {
+    width: 100%;
+    height: 350px;
+    background-color: #434343;
+    display: flex;
+    justify-content: center;
+}
+
+.cen {
+    
+}
+
+.footer-text {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: capitalize; 
+    color: #9d9d9f;
+    font-weight: light;
+    font-size: medium;
+}
