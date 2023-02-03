@@ -452,6 +452,10 @@
     font-family: 'Fira Sans', sans-serif;
   }
 
+  .dob {
+    font-family: 'Fira Sans', sans-serif;
+  }
+
   #dob {
     width: 250px;
     height: 60px;
@@ -490,6 +494,10 @@
     border: none;
     background-color: #f2f3f9;
     border-color: #f2f3f9;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  .diploma {
     font-family: 'Fira Sans', sans-serif;
   }
 
